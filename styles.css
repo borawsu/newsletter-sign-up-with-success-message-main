@@ -1,0 +1,123 @@
+* {
+    font-family: Roboto
+}
+
+p {
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(235, 18%, 26%);
+}
+
+.main-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#left-block > h1 {
+    font-weight: 700;
+    font-size: 350%;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
+
+
+.main-block {
+    height: 600px;
+    width: 70%;
+    border-radius: 35px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 35px 5px hsl(234, 29%, 20%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (min-width: 1900px){
+    .main-block {
+        height: 600px;
+        width: 50%;
+    }
+}
+
+
+#sign-up-img {
+    height: 550px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#first-position::before, #second-position::before, #third-position::before {
+    content: url(./assets/images/icon-list.svg);
+    margin: 5px;
+    padding-right: 20px;
+}
+
+#email-input {
+    border-radius: 5px;
+    width: calc(100% - 26px);
+    height: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+#email-input:hover {
+    cursor: pointer;
+}
+
+#newsletter-btn {
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#newsletter-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, hsl(345, 91%, 68%) ,hsl(4, 100%, 67%));
+    box-shadow: 0px 5px 20px 5px hsla(4, 100%, 67%, 0.356);
+}
+
+#email-p {
+    font-weight: 700;
+    font-size: 95%;
+}
+
+#input-text-error {
+    display: flex;
+    justify-content: space-between
+}
+
+#error-message {
+    color: hsl(4, 100%, 67%);
+    font-size: 95%;
+    font-weight: 700;
+    display: none;
+}
+
+#left-block > p:nth-child(2) {
+    max-width: 40ch;
+}
+
+#test { 
+    color: #d58381;
+    background-color: #ffe8e6;
+    border-radius: 5px;
+    width: calc(100% - 26px);
+    height: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    border: 2px solid #c68b85;
+}
+
+test:hover {
+    cursor: pointer;
+}
