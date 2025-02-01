@@ -30,7 +30,8 @@ body {
 
 
 #main-block {
-    width: 70%;
+    height: 600px;
+    width: 960px;
     border-radius: 35px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0px 0px 35px 5px hsl(234, 29%, 20%);
