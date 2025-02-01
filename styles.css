@@ -138,8 +138,8 @@ body {
 }
 
 #main-block-success {
-    height: 55%;
-    width: 30%;
+    height: 520px;
+    width: 578px;
     border-radius: 35px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0px 0px 35px 5px hsl(234, 29%, 20%);
