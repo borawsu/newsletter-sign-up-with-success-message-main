@@ -177,6 +177,9 @@ body {
 
 #subscription-thanks {
     font-weight: 700;
+    margin-right: auto;
+    font-size: 350%;
+
 }
 
 #confirmation-message {
